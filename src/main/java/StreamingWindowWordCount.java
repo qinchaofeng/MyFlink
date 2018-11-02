@@ -11,7 +11,7 @@ import org.apache.flink.util.Collector;
  * Author: qincf
  * Date: 2018/11/02
  * Desc: 使用flink对指定窗口内的数据进行实时统计，最终把结果打印出来
- *       先在node21机器上执行nc -l 9000
+ *       先在机器上执行nc -l 9000
  */
 public class StreamingWindowWordCount {
     public static void main(String[] args) throws Exception {
